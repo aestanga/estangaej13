@@ -1,7 +1,7 @@
-package OPERACIONES;
+package POLIMORFISMO;
 import java.util.Scanner;
 
-public class Padre {
+public abstract class Padre {
     //Atributos
     protected int valor1, valor2, oper, resultado;
     //Objeto Scanner
@@ -17,6 +17,7 @@ public class Padre {
            System.exit(0);
        }
     }
+public abstract void operaciones();
     
     public void Entradatos(){
        System.out.print("\n=== Vamos a operar... ===");

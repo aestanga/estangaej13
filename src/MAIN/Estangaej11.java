@@ -5,8 +5,8 @@ otra con las operaciones. Crear una clase padre y dos hijas(resta, suma);
 luego con la clase principal main llamar a esas clases.
  */
 package MAIN;
-import OPERACIONES.Hija_resta;
-import OPERACIONES.Hija_suma;
+import POLIMORFISMO.Hija_resta;
+import POLIMORFISMO.Hija_suma;
 
 public class Estangaej11 {
 
@@ -18,11 +18,11 @@ public class Estangaej11 {
 
         if (mensajsum.getoper() == 1){
             mensajsum.Entradatos();
-            mensajsum.sumar();
+            mensajsum.operaciones();
             mensajsum.MostrarRes();
         } if (mensajsum.getoper() == 2){
             mensajrest.Entradatos();
-            mensajrest.restar();
+            mensajrest.operaciones();
             mensajrest.MostrarRes();
           }
         

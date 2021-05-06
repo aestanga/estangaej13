@@ -1,4 +1,4 @@
-package OPERACIONES;
+package POLIMORFISMO;
 
 public class Hija_resta extends Padre {
     //Metodo get
@@ -6,7 +6,8 @@ public class Hija_resta extends Padre {
         return oper;
     }
     //Metodo restar
-    public void restar() {
+    @Override
+    public void operaciones() {
          System.out.print("\n=== RESTAMOS ===\n");
          resultado = valor1 - valor2;
          System.out.print(valor1+" - "+valor2+" = ");
